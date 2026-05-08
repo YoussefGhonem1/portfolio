@@ -10,18 +10,18 @@ export default function ContactForm() {
     // 1️⃣ يبعتلك إنت
     emailjs
       .sendForm(
-        "service_ze9x0o7",     // Service ID
-        "template_rbzgbfj",   // Template ID 
+        "service_hbuopxo",     // Service ID
+        "template_jdzpkbi",   // Template ID 
         form,
-        "5YdlDBUZ1E5wUQF9g"    // Public Key
+        "2GbTN63nbuhVL5yG3"    // Public Key
       )
       .then(() => {
         // 2️⃣ يبعت للعميل تأكيد
         return emailjs.sendForm(
-          "service_ze9x0o7",     // Service ID
-          "template_t7zea35",  // Template ID
+          "service_hbuopxo",     // Service ID
+          "template_jdzpkbi",  // Template ID
           form,
-          "5YdlDBUZ1E5wUQF9g"   // Public Key
+          "2GbTN63nbuhVL5yG3"   // Public Key
         );
       })
       .then(

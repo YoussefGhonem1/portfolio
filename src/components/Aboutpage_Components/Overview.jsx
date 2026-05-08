@@ -1,11 +1,11 @@
 const highlights = [
-  { subtitle: "IoT Systems Integration & Data Pipelines" },
-  { subtitle: "Authentication & Security (JWT, Role-based Access)" },
-  { subtitle: "Databases (MongoDB, PostgreSQL, MySQL)" },
-  { subtitle: "Cloud & Scalability (Docker, AWS, Microservices)" },
+  { subtitle: "Cross-Platform Mobile Development (Flutter & Dart)" },
+  { subtitle: "State Management & Clean Architecture (BLOC, Dependency Injection)" },
+  { subtitle: "Backend Integration & APIs (Laravel, PHP, RESTful APIs)" },
+  { subtitle: "Firebase Ecosystem (Auth, Firestore, Storage, Notifications)" },
   {
     subtitle:
-      "Agile & Scrum Practices with growing experience in cross functional teamwork & mentoring",
+      "Advanced Integrations (Google Maps, Paymob, AdMob, Accessibility Services)",
   },
 ];
 
@@ -15,12 +15,12 @@ export default function Highlights() {
       {/* Full Width */}
       <div className="col-span-1 sm:col-span-2 p-6 bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg shadow-lg">
         <h3 className="text-lg font-semibold text-white mb-2">
-          I turn ideas into secure, scalable backends.
+          I turn ideas into seamless, high-performance mobile apps.
         </h3>
         <p className="text-gray-400 text-sm text-justify">
-          From real-time APIs and authentication systems to IoT integrations
-          and data pipelines, I focus on reliability, performance, and clean
-          architecture.
+          From interactive UIs and real-time features to secure payment integrations
+          and complex automation tools, I focus on building reliable, user-friendly
+          applications driven by clean architecture and organized code.
         </p>
       </div>
 

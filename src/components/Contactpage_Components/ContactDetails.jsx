@@ -4,27 +4,27 @@ const contactInfo = [
   {
     icon: <Mail size={18} />,
     label: "Email",
-    value: "Ibrahimadel.dev@gmail.com",
-    href: "mailto:Ibrahimadel.dev@gmail.com",
+    value: "youssefghoneem883@gmail.com",
+    href: "mailto:youssefghoneem883@gmail.com",
   },
   {
     icon: <Linkedin size={18} />,
     label: "LinkedIn",
-    value: "ibrahimadeldev",
-    href: "https://www.linkedin.com/in/ibrahimadeldev/",
+    value: "youssefghonem",
+    href: "https://www.linkedin.com/in/youssefghonem",
   },
   {
     icon: <Github size={18} />,
     label: "GitHub",
-    value: "IbrahimAdelDev",
-    href: "https://github.com/IbrahimAdelDev",
+    value: "YoussefGhonem1",
+    href: "https://github.com/YoussefGhonem1",
   },
   {
     icon: <MapPin size={18} />,
     label: "Location",
-    value: "Damietta, Egypt",
+    value: "Egypt",
     extra: "Response: 24-48h",
-    href: "https://maps.google.com/?q=Damietta,Egypt",
+    href: "https://maps.google.com/?q=Egypt",
   },
 ];
 
@@ -53,14 +53,18 @@ export default function ContactDetails() {
                        bg-gray-900/40 backdrop-blur-md border border-gray-700/30 
                        shadow-md"
           >
-            <span className="text-red-400 mt-0.5">{item.icon}</span>
-            <div>
+            {/* أضفنا min-w-fit للأيقونة عشان تحافظ على حجمها */}
+            <span className="text-red-400 mt-0.5 min-w-fit">{item.icon}</span>
+            
+            {/* التعديل هنا: أضفنا flex-1 min-w-0 للتحكم في حجم الحاوية */}
+            <div className="flex-1 min-w-0"> 
               <p className="text-xs text-gray-400">{item.label}</p>
               <a
                 href={item.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-xs text-white font-medium hover:text-red-400 transition"
+                // التعديل هنا: أضفنا break-all لكسر الإيميل الطويل على سطرين
+                className="text-xs text-white font-medium hover:text-red-400 transition break-all block"
               >
                 {item.value}
               </a>

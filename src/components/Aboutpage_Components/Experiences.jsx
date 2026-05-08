@@ -1,44 +1,22 @@
 const experiences = [
   {
-    role: "Backend Developer Intern",
-    company: "Homains",
-    date: "Nov 2024 – Feb 2025 · Remote",
+    role: "Freelance Flutter Developer",
+    company: "Self-Employed",
+    date: "Oct 2025 – Present",
     points: [
-      "Developed responsive interfaces for the Lernova project by converting Figma designs into clean React.js + Tailwind code.",
-      "Deployed 10+ updates to GitHub repos ensuring seamless UI improvements and bug fixes.",
-      "Worked in Agile Scrum environment, participating in sprints and daily stand-ups."
+      "Developed and published multiple apps (e.g., Alnoorfood, Mkanak) to Google Play and App Store.",
+      "Integrated and optimized RESTful APIs with a Laravel backend.",
+      "Built custom automation tools and games using Android Accessibility Services and AdMob."
     ]
   },
   {
-    role: "Full-Stack Intern",
-    company: "Uneeq Interns",
-    date: "Sep 2024 – Nov 2024 · Remote",
+    role: "Flutter Developer Intern",
+    company: "Link Development",
+    date: "Jul 2025 – Aug 2025",
     points: [
-      "Developed an LMS backend using Node.js & MongoDB with authentication and middleware for authorization.",
-      "Integrated Cloudinary for file storage and management.",
-      "Built an authentication system for 100+ users with JWT security and profile management.",
-      "Developed a fully responsive e-commerce website with Laravel, managing 50+ product listings."
-    ]
-  },
-  {
-    role: "Summer Training",
-    company: "Information Technology Institute (ITI)",
-    date: "Aug 2024 – Oct 2024 · Egypt",
-    points: [
-      "Developed an e-commerce website using Laravel & Bootstrap.",
-      "Built an admin dashboard for managing 100+ products and categories.",
-      "Applied security best practices, eliminating SQL Injection & XSS vulnerabilities."
-    ]
-  },
-  {
-    role: "Software Engineering Scholar",
-    company: "ALX Program",
-    date: "Jul 2023 – Nov 2024 · Remote",
-    points: [
-      "Developed frontend for a social media platform using React.js integrated with Node.js & MongoDB backend for 1,000+ users.",
-      "Built frontend for an E-learning platform to support 200+ students solving coding challenges.",
-      "Implemented core C projects (Simple Shell, custom printf, variadic functions).",
-      "Collaborated remotely in a 12-month intensive software engineering program."
+      "Developed cross-platform mobile apps using Flutter with clean code, state management, Firebase, and API integration.",
+      "Collaborated in Agile environments to design features and implement interactive UI components and animations.",
+      "Built a seamless e-commerce mobile application using Flutter and Dart, featuring secure product browsing and a clean UI."
     ]
   }
 ];

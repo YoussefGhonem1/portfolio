@@ -3,117 +3,164 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay, FreeMode } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-import Portfolio from "./../../assets/images/projrcts/portfolio.png";
-import Facebook from "./../../assets/images/projrcts/facebook.png";
-import CP from "./../../assets/images/projrcts/cpp.jpg";
-import E_learning from "./../../assets/images/projrcts/elearning.png";
-import Hprep from "./../../assets/images/projrcts/hprep.png";
-import ReactTeachHub from "./../../assets/images/projrcts/teachhub.png";
-import GuessMyNumber from "./../../assets/images/projrcts/guess.png";
-import TeachHubApi from "./../../assets/images/projrcts/teachhubapi.png";
+
+// ⚠️ تنبيه: قم باستبدال هذه الصور بصور مشاريعك الحقيقية لاحقاً ⚠️
+import mkanak from "./../../assets/images/projrcts/mkanak.png";
+import Alnoorfood from "./../../assets/images/projrcts/alnoorfood.png";
+import SnakeGame from "./../../assets/images/projrcts/snakesAr.png";
+import autoclick from "./../../assets/images/projrcts/app_logo.png";
+import ecommerce from "./../../assets/images/projrcts/ecommerce.png";
+import postsapp from "./../../assets/images/projrcts/postsapp.png";
+import charity from "./../../assets/images/projrcts/charity.png";
+import aura from "./../../assets/images/projrcts/aura_logo2.png";
+import apppasti from "./../../assets/images/projrcts/apppasti.jpeg";
+import music from "./../../assets/images/projrcts/music.png";
+
 
 const projects = [
   {
     id: 1,
-    title: "Portfolio App",
-    categories: ["Frontend", "Web"],
-    description: "Personal portfolio application",
+    title: "Mkanak - Real Estate",
+    categories: ["Mobile", "Flutter", "Full-Stack"],
+    description: "Rental app with Paymob, Google Maps, chat, and Firebase notifications.",
     date: "2025",
-    image: Portfolio,
-    github: "https://github.com/IbrahimAdelDev/ReactVite_Portfolio",
-    demo: "https://ibrahimadelportfolio.vercel.app",
+    image: mkanak,
+    github: "https://github.com/YoussefGhonem1/mkanak", 
+    demo: "https://play.google.com/store/apps/details?id=com.youssef.mkanak",
     featured: true,
   },
   {
     id: 2,
-    title: "TeachHub-Api(Node.js)",
-    categories: ["Web", "Backend"],
-    description: "A RESTful API for the TeachHub platform",
+    title: "Alnoorfood App",
+    categories: ["Mobile", "Flutter"],
+    description: "Food delivery app with Laravel API integration. Published on stores.",
     date: "2025",
-    image: TeachHubApi,
-    github: "https://github.com/IbrahimAdelDev/Node.js-TeachHub",
-    demo: "https://node-js-teachhub.onrender.com/api-docs/",
+    image: Alnoorfood, 
+    github: "https://github.com/YoussefGhonem1/alnoorfood", 
+    demo: "https://play.google.com/store/apps/details?id=com.aliweb.zeroonez.alnoorfood", 
     featured: true,
   },
   {
     id: 3,
-    title: "Problem Solving Analytics",
-    categories: ["Problem Solving", "Backend", "Other"],
-    description: "Analytics dashboard for competitive programming",
+    title: "Snake Game",
+    categories: ["Mobile", "Flutter", "Game"],
+    description: "Arcade game with multiple modes, store, and AdMob/Unity ads integration.",
     date: "2024",
-    image: CP,
-    github: "https://github.com/IbrahimAdelDev/CP4",
-    demo: "https://codeforces.com/profile/Ibrahimadel",
-    featured: true,
+    image: SnakeGame, 
+    github: "https://github.com/YoussefGhonem1/snake_game",
+    demo: "#",
+    featured: false,
   },
   {
     id: 4,
-    title: "E-Learning Platform",
-    categories: ["Web", "Frontend"],
-    description: "Smart AI-powered assistant",
-    date: "2023",
-    image: E_learning,
-    github: "https://github.com/IbrahimAdelDev/Native_Frontend_E-learning",
-    demo: "https://e-learning-one-kappa.vercel.app",
+    title: "Auto Click Tool",
+    categories: ["Mobile", "Flutter", "Tool"],
+    description: "Social media automation using Android Accessibility Services and Firebase.",
+    date: "2024",
+    image: autoclick, 
+    github: "https://github.com/YoussefGhonem1/auto_click",
+    demo: "https://youtu.be/l_KvkomNl4g?si=rKVPeBC-54FIZ6-0",
     featured: true,
   },
   {
     id: 5,
-    title: "Landing Page",
-    categories: ["Web", "Frontend"],
-    description: "Landing page from Homains training",
+    title: "E-Commerce App",
+    categories: ["Mobile", "Flutter", "E-Commerce"],
+    description: "Seamless shopping experience built during Link Development internship.",
     date: "2025",
-    image: Hprep,
-    github: "https://github.com/IbrahimAdelDev/Angular_Preparing-For-Project",
-    demo: "https://h-prep.vercel.app",
-    featured: true,
+    image: ecommerce, 
+    github: "https://github.com/YoussefGhonem1/ecommerce_linkdevelpment",
+    demo: "https://streamable.com/gpevbg",
+    featured: false,
   },
   {
     id: 6,
-    title: "React Teach Hub",
-    categories: ["Web", "Frontend"],
-    description: "Educational platform for teachers (DEPI)",
-    date: "2025",
-    image: ReactTeachHub,
-    github: "https://github.com/IbrahimAdelDev/React-TeachHub",
-    demo: "https://react-teach-hub.vercel.app",
-    featured: true,
+    title: "Posts App (Clean Arch)",
+    categories: ["Mobile", "Flutter"],
+    description: "Robust post management using Clean Architecture, BLOC, and DI.",
+    date: "2024",
+    image: postsapp, 
+    github: "https://github.com/YoussefGhonem1/posts_app_clean_architecture",
+    demo: "https://streamable.com/jf46dk",
+    featured: false,
   },
   {
     id: 7,
-    title: "Guess My Number",
-    categories: ["Web", "Frontend", "Game"],
-    description: "A fun number guessing game",
+    title: "Charity & Zakat App",
+    categories: ["Mobile", "Flutter", "Firebase"],
+    description: "Donation app with real-time Zakat calculator and Firebase integration.",
     date: "2024",
-    image: GuessMyNumber,
-    github: "https://github.com/IbrahimAdelDev/guessmynumber",
-    demo: "https://guessmynumber-jonas.vercel.app",
-    featured: true,
+    image: charity,
+    github: "https://github.com/YoussefGhonem1/charity_app",
+    demo: "https://streamable.com/5mapfl",
+    featured: false,
   },
   {
     id: 8,
-    title: "Facebook Login",
-    categories: ["Frontend", "Web", "Other"],
-    description: "Facebook login integration example",
-    date: "2022",
-    image: Facebook,
-    github: "https://github.com/IbrahimAdelDev/Facebook_Login",
-    demo: "https://facebook-login-demo.vercel.app",
+    title: "Aura - AI Stock Investment",
+    categories: ["Mobile", "Flutter", "AI"],
+    description: "AI-powered stock investment app with smart recommendations and sentiment analysis (Graduation Project).",
+    date: "2026",
+    image: aura,
+    github: "https://github.com/YoussefGhonem1/aura_app",
+    demo: "https://streamable.com/8w3cta",
     featured: true,
   },
+  {
+    id: 9,
+    title: "Apppasti - Meal Ordering",
+    categories: ["Mobile", "Flutter"],
+    description: "A smart, cross-platform app connecting schools, students, and kitchens for seamless meal management.",
+    date: "2026",
+    image: apppasti, // قم بتعريف الصورة فوق
+    github: "https://github.com/YoussefGhonem1/apppasti",
+    demo: "https://play.google.com/store/apps/details?id=apppasti.com&hl=ar",
+    featured: true,
+  },
+  {
+    id: 10,
+    title: "E-Commerce Website",
+    categories: ["Web", "Full-Stack", "Laravel"],
+    description: "A dynamic and robust online e-commerce experience built with the Laravel framework.",
+    date: "2025",
+    image: postsapp, // قم بتعريف الصورة فوق
+    github: "https://github.com/YoussefGhonem1/Ecommerce_website",
+    demo: "#",
+    featured: false,
+  },
+  {
+    id: 11,
+    title: "Flutter Music App",
+    categories: ["Mobile", "Flutter"],
+    description: "Music app delivering stunning visuals, flawless audio playback, and an intuitive UI.",
+    date: "2025",
+    image: music, // قم بتعريف الصورة فوق
+    github: "https://github.com/YoussefGhonem1/Music",
+    demo: "#",
+    featured: false,
+  },
+  {
+    id: 12,
+    title: "Rent Backend (Mkanak API)",
+    categories: ["Backend", "PHP"],
+    description: "The backend PHP architecture powering the Mkanak real estate rental application.",
+    date: "2025",
+    image: postsapp, // قم بتعريف الصورة فوق
+    github: "https://github.com/YoussefGhonem1/Rent_backend",
+    demo: "https://play.google.com/store/apps/details?id=com.youssef.mkanak",
+    featured: false,
+  }
 ];
 
 const categories = [
   "All",
-  "Backend",
-  "Frontend",
-  "Web",
-  // "E-commerce",
-  "Dashboard",
-  "Problem Solving",
-  "IOT",
+  "Mobile",
+  "Flutter",
+  "Full-Stack",
+  "Firebase",
+  "E-Commerce",
   "Game",
-  "Other",
+  "Tool",
 ];
 
 export default function ProjectsGrid() {
@@ -139,6 +186,7 @@ export default function ProjectsGrid() {
   });
 
   const extractDomain = (url) => {
+    if (url === "#") return "Demo";
     try {
       return new URL(url).hostname.replace("www.", "");
     } catch {

@@ -10,7 +10,6 @@ import Skills from '../../components/Aboutpage_Components/Skills.jsx';
 import Education from '../../components/Aboutpage_Components/Education.jsx';
 import Highlights from '../../components/Aboutpage_Components/Highlights.jsx';
 
-
 import {
   HeroSectionStyle,
   leftDiv,
@@ -40,36 +39,32 @@ const About = () => {
           <div className={leftDiv}>
             <h1 className={H1Style}>
               I’m
-              <br/><span className="text-red-700">Ibrahim Adel</span>
-              <br/>Junior Back-End Engineer
+              <br/><span className="text-red-700">Youssef Ghonem</span>
+              <br/>Mobile App Developer (Flutter)
             </h1>
             <p className={PStyle}>
-
-              I build production-grade backends that scale reliably,
-               stay secure, and integrate cleanly. I specialize in Node.js,
-                Express, and MongoDB extended with PostgreSQL, Laravel, and cloud integrations.
-                 Beyond web systems, I have hands-on experience building and integrating IoT systems
-                  across multiple domains,
-                   from smart devices to connected services.
-                    I’m guided by SOLID principles, clean architecture,
-                     and a security-first mindset,
-                      with proven experience shipping systems that serve 1,000+ users/devices and power real-time applications.
-            
+              I build cross-platform mobile apps that are simple, intuitive, and highly performant. 
+              I specialize in Flutter and Dart, focusing on clean architecture, BLOC state management, 
+              and seamless API integrations. Beyond mobile development, I have hands-on experience 
+              connecting applications with Laravel and Firebase backends, along with integrating 
+              advanced features like Paymob, Google Maps, and Android Accessibility Services. 
+              As an Electronics and Communications Engineering student, I approach problem-solving 
+              with a practical, analytical mindset to deliver production-ready applications.
             </p>
             <div className="flex justify-center mt-8">
               <div className="w-3/12 flex flex-col items-center justify-around border-r-2 border-gray-600">
-                <span className="text-red-700 font-bold text-2xl">+1 yrs</span>
-                <p className='text-wrap text-gray-300 text-center text-sm'>Years of
+                <span className="text-red-700 font-bold text-2xl">&lt; 1 yr</span>
+                <p className='text-wrap text-gray-300 text-center text-sm'>Professional
                   <br />Experience</p>
               </div>
               <div className="w-3/12 flex flex-col items-center justify-around border-r-2 border-gray-600">
-                <span className="text-red-700 font-bold text-2xl">+5</span>
+                <span className="text-red-700 font-bold text-2xl">+10</span>
                 <p className='text-wrap text-gray-300 text-center text-sm'>Delivered
                   <br />Projects</p>
               </div>
               <div className="w-3/12 flex flex-col items-center justify-around">
-                <span className="text-red-700 font-bold text-2xl">+5</span>
-                <p className='text-wrap text-gray-300 text-center text-sm'>Clients</p>
+                <span className="text-red-700 font-bold text-2xl">+3</span>
+                <p className='text-wrap text-gray-300 text-center text-sm'>Freelance<br/>Clients</p>
               </div>
             </div>
           </div>

@@ -39,8 +39,8 @@ const Footer = ({ className }) => {
           <span className="absolute left-1/2 transform -translate-x-1/2 -translate-y-8 text-xs bg-gray-800 text-white rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity">Contact</span>
         </Link>
         <a
-          href="/Ibrahim_Adel_Elkerdawy_CV2.pdf"
-          download="Ibrahim_Adel_Elkerdawy_CV2.pdf"
+          href="/Youssef_Ahmed_Ghonem_CV.pdf"
+          download="Youssef_Ahmed_Ghonem_CV.pdf"
           className="relative group flex text-white hover:bg-gray-700 hover:opacity-90 justify-center px-4 rounded-lg"
         >
           <img src={CV} alt="CV" className="w-8 h-16 inline-block" />

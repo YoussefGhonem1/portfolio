@@ -1,55 +1,55 @@
-const backendHighlights = [
+const mobileHighlights = [
   {
-    title: "APIs & Microservices",
-    desc: "REST & GraphQL APIs with scalable microservice design.",
-    tag: "Scalable"
+    title: "Cross-Platform Apps",
+    desc: "Building native-performing iOS and Android apps from a single Flutter codebase.",
+    tag: "Universal"
   },
   {
-    title: "Auth & Security",
-    desc: "JWT, OAuth2, RBAC, and OWASP practices for safe systems.",
-    tag: "Hardened"
+    title: "State Management",
+    desc: "Robust data flow and responsive UIs using BLOC, Cubit, and Provider.",
+    tag: "Reactive"
   },
   {
-    title: "Databases",
-    desc: "MongoDB, PostgreSQL, MySQL with indexing & query tuning.",
-    tag: "Optimized"
+    title: "Clean Architecture",
+    desc: "Structuring apps with SOLID principles for high scalability and testability.",
+    tag: "Maintainable"
   },
   {
-    title: "IoT Pipelines",
-    desc: "Telemetry ingestion, processing, and real-time dashboards.",
-    tag: "Real-Time"
+    title: "Firebase Integration",
+    desc: "Real-time databases, secure authentication, and push notifications.",
+    tag: "Cloud-Synced"
   },
   {
-    title: "Payments & E-Commerce",
-    desc: "Apple Pay, Stripe, and resilient checkout workflows.",
-    tag: "Transactions"
+    title: "API Consumption",
+    desc: "Seamlessly connecting mobile frontends with Laravel and RESTful backends.",
+    tag: "Connected"
   },
   {
-    title: "Cloud & DevOps",
-    desc: "Docker, AWS, and CI/CD pipelines with zero-downtime deploys.",
-    tag: "Cloud-Native"
+    title: "Payments & Location",
+    desc: "Integrating secure Paymob checkouts and interactive Google Maps.",
+    tag: "Integrated"
   },
   {
-    title: "Performance",
-    desc: "Caching, load balancing, and code-split strategies.",
-    tag: "Fast"
+    title: "App Monetization",
+    desc: "Implementing AdMob and Unity Ads for revenue-generating applications.",
+    tag: "Profitable"
   },
   {
-    title: "Architecture",
-    desc: "Clean code, SOLID principles, and maintainable systems.",
-    tag: "Clean"
+    title: "Advanced Automation",
+    desc: "Creating custom workflows and tools using Android Accessibility Services.",
+    tag: "Advanced"
   },
   {
-    title: "Agile & Mentoring",
-    desc: "Cross-functional teamwork, Scrum sprints, and peer coaching.",
-    tag: "Teamwork"
+    title: "App Deployment",
+    desc: "Managing the full lifecycle to publish seamlessly on Google Play & App Store.",
+    tag: "Shipped"
   },
 ];
 
 export default function BackendHighlights() {
   return (
     <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 md:pb-10">
-      {backendHighlights.map((item, idx) => (
+      {mobileHighlights.map((item, idx) => (
         <div
           key={idx}
           className="flex flex-col justify-between p-4 rounded-xl 

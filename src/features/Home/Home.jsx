@@ -1,4 +1,4 @@
-import Myphoto from '../../assets/images/Portfolio_image.png';
+import Myphoto from '../../assets/images/my_photo.png';
 import Navbar from '../../components/Navbar/Navbar.jsx';
 import ParticleComponent from '../../components/ParticleComponent.jsx';
 import Contact from '../../components/Contact.jsx';
@@ -25,19 +25,19 @@ const Home = () => {
         <div className={`${HeroSectionStyle} pt-32 md:pt-32 px-10 z-10`}>
           <div className={leftDiv}>
             <h1 className={H1Style}>
-              Turning Ideas Into Scalable Systems With
-              <br/><span className="text-red-700">Code & Architecture</span>
+              Turning Ideas Into Seamless Mobile Experiences With
+              <br/><span className="text-red-700">Flutter & Clean Architecture</span>
             </h1>
             <p className={PStyle}>
               
-            As a passionate Back-End Developer specialized in the MERN stack, I focus on building scalable, secure, and maintainable server-side systems.
-            Explore my latest projects and APIs, where I transform business logic into powerful back-end solutions using Node.js, Express, MongoDB, and modern authentication and testing practices.
+            As a passionate Mobile App Developer specialized in Flutter, I focus on building high-performance, cross-platform applications for Android and iOS. Explore my latest projects where I transform complex requirements into intuitive, user-friendly mobile solutions using Dart, BLOC state management, Firebase, and robust API integrations.
 
             </p>
           </div>
           <div className={rightDiv}>
+            {/* التعديل تم هنا في الـ className */}
             <img
-              className={`MyphotoStyle ${MyphotoStyle}`}
+              className={`MyphotoStyle ${MyphotoStyle} rounded-full aspect-square object-cover border-[6px] border-gray-800 shadow-[0_0_30px_rgba(185,28,28,0.4)] transition-transform duration-500 hover:scale-105`}
               src={Myphoto}
               alt="Profile"
             />

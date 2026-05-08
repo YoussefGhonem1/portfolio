@@ -1,23 +1,23 @@
 const steps = [
   {
     number: "1",
-    title: "Discover",
-    desc: "Goals, audience, flows, and success metrics.",
+    title: "Discover & Plan",
+    desc: "Requirements gathering, user flows, UI/UX analysis, and technical architecture.",
   },
   {
     number: "2",
-    title: "Design System",
-    desc: "Components, tokens, and patterns for scale.",
+    title: "Setup & Architecture",
+    desc: "Implementing Clean Architecture, structuring repositories, and configuring BLOC/Provider.",
   },
   {
     number: "3",
-    title: "Build",
-    desc: "SSR/CSR mix, a11y, testing, and CI previews.",
+    title: "Build & Integrate",
+    desc: "Developing UI, integrating RESTful APIs, Firebase, and 3rd-party SDKs (Paymob, Maps).",
   },
   {
     number: "4",
-    title: "Optimize & Ship",
-    desc: "CWV budgets, SEO, analytics, and handover.",
+    title: "Test & Deploy",
+    desc: "Performance profiling, bug fixing, and publishing to Google Play & App Store.",
   },
 ];
 

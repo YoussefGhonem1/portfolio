@@ -1,13 +1,12 @@
 const highlights = [
-  { subtitle: "Delivered secure RESTful APIs and microservices powering 60+ projects across fintech, e-commerce, and SaaS platforms." },
-  { subtitle: "Optimized MongoDB and PostgreSQL queries, improving response times for high-traffic apps and large IoT data streams." },
-  { subtitle: "Integrated IoT systems in multiple domains, designing pipelines to collect, process, and visualize real-time sensor data." },
-  { subtitle: "Implemented authentication & authorization with JWT, OAuth2, and role-based access for 100+ active users." },
-  { subtitle: "Deployed scalable backends using Docker and AWS, with CI/CD pipelines ensuring reliable releases." },
-  { subtitle: "Enforced security best practices, preventing SQLi/XSS vulnerabilities and ensuring data protection." },
-  { subtitle: "Collaborated in Agile/Scrum teams, contributing to sprints, stand-ups, and mentoring peers." },
-  { subtitle: "Strong focus on clean architecture and SOLID principles to deliver maintainable, production-grade systems." },
-  { subtitle: "Implemented payment processing solutions, including Apple Pay and complex checkout flows." },
+  { subtitle: "Developed and published multiple cross-platform mobile applications (e.g., Alnoorfood, Mkanak) to Google Play and the App Store." },
+  { subtitle: "Implemented Clean Architecture and BLOC state management to ensure highly scalable, maintainable, and testable codebases." },
+  { subtitle: "Integrated and optimized RESTful APIs with Laravel backends, alongside extensive use of Firebase (Auth, Firestore, Storage, Notifications)." },
+  { subtitle: "Built custom automation tools and interactive games utilizing Android Accessibility Services and AdMob/Unity ads integrations." },
+  { subtitle: "Integrated secure payment gateways (Paymob) and location-based services (Google Maps) into production applications." },
+  { subtitle: "Enhanced user experiences by designing interactive UI components, smooth animations, and real-time chat functionalities." },
+  { subtitle: "Collaborated effectively in Agile environments to design features, maintain existing codebases, and resolve complex bugs." },
+  { subtitle: "Gained full-stack perspective by developing secure e-commerce platforms using PHP, Laravel, and MySQL." },
 ];
 
 export default function Highlights() {
@@ -18,7 +17,7 @@ export default function Highlights() {
           key={idx}
           className="flex items-start p-4 bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg shadow-lg"
         >
-          <div className="mr-3">
+          <div className="mr-3 mt-1.5">
             <span className="inline-flex items-center justify-center w-2 h-2 bg-red-500 rounded-full shadow"></span>
           </div>
 

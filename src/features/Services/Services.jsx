@@ -9,15 +9,15 @@ import BackendHighlights from '../../components/Servicespage_Components/BackendH
 import CTA from '../../components/Servicespage_Components/CTA.jsx';
 
 import {
-  FaProjectDiagram,
-  FaShieldAlt,
-  FaDatabase,
-  FaBolt,
-  FaNetworkWired,
+  FaMobileAlt,
   FaCogs,
-  FaMoneyBillWave,
-  FaSyncAlt,
-  FaDocker,
+  FaProjectDiagram,
+  FaCloudUploadAlt,
+  FaPlug,
+  FaMapMarkedAlt,
+  FaAd,
+  FaRobot,
+  FaRocket,
 } from "react-icons/fa";
 
 import {
@@ -31,49 +31,49 @@ import './Services.css';
 
 const Features = [
   {
-    title: "API Design & Microservices",
-    desc: "Clean REST/GraphQL APIs with scalable microservices.",
-    icon: <FaProjectDiagram className="text-red-700 text-4xl" />,
+    title: "Cross-Platform Apps",
+    desc: "High-performance iOS & Android apps from a single Flutter codebase.",
+    icon: <FaMobileAlt className="text-red-700 text-4xl" />,
   },
   {
-    title: "Auth & Security",
-    desc: "JWT, OAuth2, RBAC/ABAC, and OWASP best practices.",
-    icon: <FaShieldAlt className="text-red-700 text-4xl" />,
-  },
-  {
-    title: "Databases & ORM",
-    desc: "PostgreSQL, MySQL, MongoDB with efficient indexing.",
-    icon: <FaDatabase className="text-red-700 text-4xl" />,
-  },
-  {
-    title: "Caching & Performance",
-    desc: "Boosting throughput with Redis and query optimization.",
-    icon: <FaBolt className="text-red-700 text-4xl" />,
-  },
-  {
-    title: "IoT & Data Pipelines",
-    desc: "Ingesting device telemetry and real-time analytics.",
-    icon: <FaNetworkWired className="text-red-700 text-4xl" />,
-  },
-  {
-    title: "End-to-End Features",
-    desc: "From schema and APIs to UI integration.",
+    title: "State Management",
+    desc: "Reactive and scalable applications using BLOC, Cubit, and Provider.",
     icon: <FaCogs className="text-red-700 text-4xl" />,
   },
   {
-    title: "Payments & Billing",
-    desc: "Apple Pay, Stripe, and idempotent order workflows.",
-    icon: <FaMoneyBillWave className="text-red-700 text-4xl" />,
+    title: "Clean Architecture",
+    desc: "SOLID principles for a highly maintainable and testable codebase.",
+    icon: <FaProjectDiagram className="text-red-700 text-4xl" />,
   },
   {
-    title: "Real-Time UX",
-    desc: "Live updates via WebSockets/SSE with optimistic UI.",
-    icon: <FaSyncAlt className="text-red-700 text-4xl" />,
+    title: "Firebase Integration",
+    desc: "Real-time data, Auth, Cloud Storage, and Push Notifications.",
+    icon: <FaCloudUploadAlt className="text-red-700 text-4xl" />,
   },
   {
-    title: "CI/CD & Runtime",
-    desc: "Dockerized services, GitHub Actions, zero-downtime deploys.",
-    icon: <FaDocker className="text-red-700 text-4xl" />,
+    title: "API Integration",
+    desc: "Seamlessly connecting mobile apps with RESTful backends (Laravel/Node).",
+    icon: <FaPlug className="text-red-700 text-4xl" />,
+  },
+  {
+    title: "Payments & Maps",
+    desc: "Integrating Paymob checkouts and interactive Google Maps.",
+    icon: <FaMapMarkedAlt className="text-red-700 text-4xl" />,
+  },
+  {
+    title: "App Monetization",
+    desc: "Implementing AdMob and Unity Ads for revenue generation.",
+    icon: <FaAd className="text-red-700 text-4xl" />,
+  },
+  {
+    title: "Automation & Tools",
+    desc: "Custom workflows and tools using Android Accessibility Services.",
+    icon: <FaRobot className="text-red-700 text-4xl" />,
+  },
+  {
+    title: "App Store Deployment",
+    desc: "Full lifecycle management and publishing to Google Play & App Store.",
+    icon: <FaRocket className="text-red-700 text-4xl" />,
   },
 ];
 
@@ -91,9 +91,9 @@ const Services = () => {
               My Services <span className="text-red-700">.</span>
             </h1>
             <p className={PStyle}>
-              Designing and building scalable back-end systems and IoT integrations with
-               a focus on security, reliability, and clean architectures. From APIs & data
-                pipelines to cloud-native deployments and automation.
+              Designing and building high-performance, cross-platform mobile applications 
+              with a focus on seamless user experiences, clean architecture, and robust integrations. 
+              From interactive UIs and state management to complex APIs and store deployments.
             </p>
             <Steps/>
           </div>
