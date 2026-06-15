@@ -1,3 +1,5 @@
+import React from 'react';
+
 const highlights = [
   { subtitle: "Cross-Platform Mobile Development (Flutter & Dart)" },
   { subtitle: "State Management & Clean Architecture (BLOC, Dependency Injection)" },
@@ -34,7 +36,8 @@ export default function Highlights() {
             <span className="inline-flex items-center justify-center w-2 h-2 bg-red-500 rounded-full shadow"></span>
           </div>
           <div className="flex-1">
-            <p className="text-sm text-gray-300 text-justify">{item.subtitle}</p>
+            {/* تم إزالة text-justify من هنا */}
+            <p className="text-sm text-gray-300 text-left">{item.subtitle}</p>
           </div>
         </div>
       ))}

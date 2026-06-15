@@ -2,7 +2,7 @@ const education = [
   {
     degree: "Bachelor’s Degree in Electronics & Communications Engineering",
     school: "Port Said University",
-    date: "2021 – 2026 (Expected)",
+    date: "2021 – 2026",
     location: "Egypt",
   },
 ];
